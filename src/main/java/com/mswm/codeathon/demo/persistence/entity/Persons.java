@@ -15,9 +15,10 @@ import javax.persistence.Id;
 public class Persons {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer PersonID;
-    private String LastName;
-    private String FirstName;
-    private String Address;
-    private String City;
+    private Integer personid;
+    private String lastname;
+    private String firstname;
+    private String address;
+    private String city;
+    private String zip;
 }
