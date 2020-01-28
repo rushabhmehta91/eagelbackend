@@ -21,7 +21,7 @@ public class TestController {
 
     @GetMapping("ping")
     public ResponseEntity<String> sayHi() {
-        return ResponseEntity.ok("Hello!");
+        return ResponseEntity.ok("Hello " + System.getProperty("CONFIG_MODE") + "!");
     }
 
     @GetMapping(path = "/all")
