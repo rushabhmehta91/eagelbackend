@@ -80,10 +80,10 @@
         <version>1.8.0</version>
         <configuration>
           <schemaVersion>V2</schemaVersion>
-          <resourceGroup>spring-boot-1580083315844-rg</resourceGroup>
-          <appName>spring-boot-1580083315844</appName>
+          <resourceGroup>eagle</resourceGroup>
+          <appName>eagleBackend</appName>
           <pricingTier>P1v2</pricingTier>
-          <region>westeurope</region>
+          <region>eastus</region>
           <runtime>
             <os>linux</os>
             <javaVersion>java11</javaVersion>
